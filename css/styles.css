@@ -745,7 +745,7 @@ textarea:focus {
 }
 
 .modal-field-checkbox {
-
+    margin-bottom: 24px;
 }
 
 .check-text {
@@ -792,12 +792,6 @@ textarea:focus {
     fill: #F4F4FD;
 }
 
-.modal-field-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .modal-btn {
     display: block;
     min-width: 169px;
@@ -813,7 +807,6 @@ textarea:focus {
     padding: 16px 32px;
     border: none;
     border-radius: 4px;
-    margin-top: 24px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
