@@ -527,7 +527,6 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-left: 24px;
     margin-bottom: 16px;
 }
 
@@ -749,6 +748,8 @@ textarea:focus {
 }
 
 .check-text {
+    display: flex;
+    align-items: flex-end;
     color: #8E8F99;
     font-size: 12px;
     line-height: 1.17;
@@ -791,6 +792,7 @@ textarea:focus {
 
 .modal-btn {
     display: block;
+    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     background-color: #4D5AE5;
